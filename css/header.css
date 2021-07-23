@@ -1,7 +1,3 @@
-body {
-  padding: 0 10px;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -33,6 +29,9 @@ header .links ul li:hover {
   color: #1515c4;
   cursor: pointer;
 }
+header .links ul li h4 {
+  font-weight: normal;
+}
 
 header .inscription {
   color: #1515c4;
@@ -40,11 +39,6 @@ header .inscription {
 }
 
 @media all and (max-width: 500px) {
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
   header {
     flex-wrap: wrap;
     margin: 20px 0;
