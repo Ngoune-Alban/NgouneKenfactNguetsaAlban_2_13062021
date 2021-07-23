@@ -25,8 +25,8 @@ header .links ul li {
 }
 
 header .links ul li:hover {
-  border-top: 2px solid #1515c4;
-  color: #1515c4;
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
   cursor: pointer;
 }
 header .links ul li h4 {
@@ -34,7 +34,7 @@ header .links ul li h4 {
 }
 
 header .inscription {
-  color: #1515c4;
+  color: #0065fc;
   font-weight: bold;
 }
 
@@ -62,9 +62,9 @@ header .inscription {
     border-bottom: 2px solid rgb(204, 204, 204);
   }
   header .links ul li:hover {
-    border-bottom: 2px solid #1515c4;
+    border-bottom: 2px solid #0065fc;
     border-top: none;
-    color: #1515c4;
+    color: #0065fc;
   }
 
   header .inscription {

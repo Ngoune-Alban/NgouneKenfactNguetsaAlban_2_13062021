@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/header.css" rel="stylesheet" type="text/css" />
     <link href="css/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/filters.css" rel="stylesheet" type="text/css" />
     <script
       src="https://kit.fontawesome.com/556df76b09.js"
       crossorigin="anonymous"
@@ -22,7 +23,42 @@
       </nav>
       <div class="inscription">S'inscrire</div>
     </header>
-    <i class="fas fa-space-shuttle"></i>
+
+    <section class="filter-group">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <div class="sous-titre">En plein centre ville ou en pleine nature</div>
+
+      <div class="recherche">
+        <i class="fas fa-map-marker-alt"></i>
+        <input value="Marseille,France" type="search" id="Recherche" />
+        <label for="Recherche">Recherche</label>
+      </div>
+
+      <div class="filtres">
+        <h4>Filtres</h4>
+        <div class="filter-list">
+          <div class="filtre">
+            <i class="fas fa-money-bill-wave"></i>
+            <span class="name">Economique</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-child"></i> <span class="name">Familial</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-heart"></i> <span class="name">Romatique</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-dog"></i>
+            <span class="name">Animaux autorisés</span>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans
+        cette ville
+      </div>
+    </section>
+    la suite ici
   </body>
 </html>
 
