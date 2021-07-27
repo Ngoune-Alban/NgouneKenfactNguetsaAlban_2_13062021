@@ -1,12 +1,14 @@
 .filter-group {
 }
 
-.filter-group h1 {
+.filter-group h2 {
   margin-bottom: 0;
 }
 
 .filter-group .sous-titre {
   font-size: 12px;
+  margin-bottom: 15px;
+  margin-top: 2px;
 }
 
 .filter-group .recherche {
@@ -48,6 +50,10 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.filter-group .filtres h3 {
+  margin-right: 20px;
 }
 
 .filter-group .filtres .filter-list {
@@ -100,4 +106,24 @@
   color: #0065fc;
   font-size: 10px;
   margin-right: 10px;
+}
+
+@media all and (max-width: 500px) {
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .filter-group .filtres h3 {
+    margin: 0;
+  }
+  .filter-group .filtres .filter-list .filtre {
+    margin: 10px 10px 10px 0;
+  }
+  .filter-group .filtres {
+    margin-bottom: 0;
+  }
+
+  .filter-group .info {
+    margin: 0;
+  }
 }
