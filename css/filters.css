@@ -1,6 +1,3 @@
-.filter-group {
-}
-
 .filter-group h2 {
   margin-bottom: 0;
 }
@@ -16,7 +13,7 @@
   display: flex;
 }
 
-.filter-group .recherche i {
+.filter-group .recherche > i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +42,10 @@
   padding: 0 10px;
 }
 
+.filter-group .recherche label .loop {
+  display: none;
+}
+
 .filter-group .filtres {
   margin: 10px 0;
   display: flex;
@@ -62,12 +63,11 @@
   flex-wrap: wrap;
 }
 .filter-group .filtres .filter-list .filtre {
-  margin: 10px 0;
+  margin: 10px;
   display: flex;
   align-items: center;
   border: 1px solid #f2f2f2;
   border-radius: 50px;
-  margin: 0 10px;
   font-weight: bold;
 }
 
@@ -109,9 +109,15 @@
 }
 
 @media all and (max-width: 500px) {
-  main {
+  .filter-group {
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .filter-group .recherche label .recherche {
+    display: none;
+  }
+  .filter-group .recherche label .loop {
+    display: block;
   }
   .filter-group .filtres h3 {
     margin: 0;
