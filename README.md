@@ -1,3 +1,11 @@
-Rservia est un project de reservation
+## Reservia
 
-ce project est fait en html css
+Ce projet est un projet de réservation d'hôtel, réalisé dans le cadre de la formation de développeur web chez openclassroom.
+
+##### Plus d'info sur le projet
+
+Mission du projet [ici](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web/assignment)
+
+##### Plus d'info sur le parcours
+
+Détail du parcours [ici](https://openclassrooms.com/fr/paths/185-developpeur-web#main_content)
