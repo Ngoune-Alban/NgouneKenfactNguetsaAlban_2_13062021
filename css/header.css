@@ -1,6 +1,8 @@
 header {
   display: flex;
   align-items: center;
+  padding: 0 10px;
+  margin: 8px;
 }
 
 header .logo {
@@ -42,6 +44,7 @@ header .inscription {
   header {
     flex-wrap: wrap;
     margin: 20px 0;
+    padding: 0;
   }
   header .logo {
     margin-left: 20px;

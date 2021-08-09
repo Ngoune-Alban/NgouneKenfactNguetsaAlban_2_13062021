@@ -1,0 +1,17 @@
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+footer div {
+  width: 100%;
+}
+
+@media all and (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    padding: 30px;
+  }
+}
