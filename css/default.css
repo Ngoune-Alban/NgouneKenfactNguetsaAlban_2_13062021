@@ -9,6 +9,7 @@
   src: url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-Bold.ttf") format("truetype");
@@ -24,6 +25,15 @@ body {
 body main {
   padding: 0 10px;
   margin: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  -moz-box-sizing: border-box;
+  /* Firefox, autres Gecko */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, autres WebKit */
 }
 
 @media all and (max-width: 500px) {
