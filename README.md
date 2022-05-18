@@ -1,6 +1,6 @@
 ## Reservia
 
-Ce projet est un projet de réservation d'hôtel, réalisé dans le cadre de la formation de développeur web chez openclassroom.
+Ce projet est un projet de réservation d'hôtel, réalisé dans le cadre de la formation du parcours développeur web chez openclassroom.
 
 ##### Plus d'info sur le projet
 
