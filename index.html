@@ -7,243 +7,202 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/default.css" rel="stylesheet" type="text/css" />
-    <link href="css/header.css" rel="stylesheet" type="text/css" />
-    <link href="css/filters.css" rel="stylesheet" type="text/css" />
-    <link href="css/hebergement.css" rel="stylesheet" type="text/css" />
-    <link href="css/activite.css" rel="stylesheet" type="text/css" />
-    <link href="css/footer.css" rel="stylesheet" type="text/css" />
-    <script
-      src="https://kit.fontawesome.com/556df76b09.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>reservia</title>
-  </head>
-  <body>
-    <header>
-      <img src="images/logo/logo.png" alt="logo" class="logo" />
-      <nav class="links">
-        <ul>
-          <li><h4>Hebergements</h4></li>
-          <li><h4>Activités</h4></li>
-        </ul>
-      </nav>
-      <div class="inscription">S'inscrire</div>
-    </header>
 
-    <main>
-      <section class="filter-group">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <div class="sous-titre">En plein centre ville ou en pleine nature</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <link href="css/default.css" rel="stylesheet" type="text/css" />
+  <link href="css/header.css" rel="stylesheet" type="text/css" />
+  <link href="css/filters.css" rel="stylesheet" type="text/css" />
+  <link href="css/hebergement.css" rel="stylesheet" type="text/css" />
+  <link href="css/activite.css" rel="stylesheet" type="text/css" />
+  <link href="css/footer.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/556df76b09.js" crossorigin="anonymous"></script>
+  <title>reservia</title>
+</head>
 
-        <div class="recherche">
-          <i class="fas fa-map-marker-alt"></i>
-          <input value="Marseille,France" type="search" id="Recherche" />
-          <label>
-            <span class="recherche">Recherche</span>
-            <span class="loop"><i class="fas fa-search"></i> </span>
-          </label>
-        </div>
+<body>
+  <header>
+    <img src="images/logo/logo.png" alt="logo" class="logo" />
+    <nav class="links">
+      <ul>
+        <li>
+          <h4>Hebergements</h4>
+        </li>
+        <li>
+          <h4>Activités</h4>
+        </li>
+      </ul>
+    </nav>
+    <div class="inscription">S'inscrire</div>
+  </header>
 
-        <div class="filtres">
-          <h3>Filtres</h3>
-          <div class="filter-list">
-            <div class="filtre">
-              <i class="fas fa-money-bill-wave"></i>
-              <span class="name">Economique</span>
-            </div>
-            <div class="filtre">
-              <i class="fas fa-child"></i> <span class="name">Familial</span>
-            </div>
-            <div class="filtre">
-              <i class="fas fa-heart"></i> <span class="name">Romatique</span>
-            </div>
-            <div class="filtre">
-              <i class="fas fa-dog"></i>
-              <span class="name">Animaux autorisés</span>
-            </div>
+  <main>
+    <section class="filter-group">
+      <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+      <div class="sous-titre">En plein centre ville ou en pleine nature</div>
+
+      <div class="recherche">
+        <i class="fas fa-map-marker-alt"></i>
+        <input value="Marseille,France" type="search" id="Recherche" />
+        <label>
+          <span class="recherche">Recherche</span>
+          <span class="loop"><i class="fas fa-search"></i> </span>
+        </label>
+      </div>
+
+      <div class="filtres">
+        <h3>Filtres</h3>
+        <div class="filter-list">
+          <div class="filtre">
+            <i class="fas fa-money-bill-wave"></i>
+            <span class="name">Economique</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-child"></i> <span class="name">Familial</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-heart"></i> <span class="name">Romatique</span>
+          </div>
+          <div class="filtre">
+            <i class="fas fa-dog"></i>
+            <span class="name">Animaux autorisés</span>
           </div>
         </div>
-        <div class="info">
-          <i class="fas fa-info"></i> Plus de 500 logements sont disponibles
-          dans cette ville
+      </div>
+      <div class="info">
+        <i class="fas fa-info"></i> Plus de 500 logements sont disponibles
+        dans cette ville
+      </div>
+    </section>
+
+    <section class="hebergements">
+      <section class="principale">
+        <h3>Hebergements à Marseille</h3>
+        <div class="liste-hebergements">
+          <div class="hebergement">
+            <img src="./images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberbe-la-cannabiere" />
+            <p class="titre">Auberge la cannabière</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
+          <div class="hebergement">
+            <img src="./images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel du port" />
+            <p class="titre">Hotel du port</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
+          <div class="hebergement">
+            <img src="./images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel les mouettes" />
+            <p class="titre">Hotel les mouettes</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
+          <div class="hebergement">
+            <img src="./images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer" />
+            <p class="titre">Hotel de la mere</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
+          <div class="hebergement">
+            <img src="./images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberbe-le-pannier" />
+            <p class="titre">Auberge le panier</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
+          <div class="hebergement">
+            <img src="./images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Auberbe-la-cannabiere" />
+            <p class="titre">Auberge la cannabière</p>
+            <p class="prix">Nuit a partir de 25 €</p>
+            <p class="note">stars</p>
+          </div>
         </div>
+        <h3>Afficher plus</h3>
       </section>
-
-      <section class="hebergements">
-        <section class="principale">
-          <h3>Hebergements à Marseille</h3>
-          <div class="liste-hebergements">
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                alt="Auberbe-la-cannabiere"
-              />
-              <p class="titre">Auberge la cannabière</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
-            </div>
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                alt="hotel du port"
-              />
-              <p class="titre">Hotel du port</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
-            </div>
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                alt="Hotel les mouettes"
-              />
-              <p class="titre">Hotel les mouettes</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
-            </div>
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                alt="Hotel de la mer"
-              />
-              <p class="titre">Hotel de la mere</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
-            </div>
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                alt="Auberbe-le-pannier"
-              />
-              <p class="titre">Auberge le panier</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
-            </div>
-            <div class="hebergement">
-              <img
-                src="./images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                alt="Auberbe-la-cannabiere"
-              />
-              <p class="titre">Auberge la cannabière</p>
-              <p class="prix">Nuit a partir de 25 €</p>
-              <p class="note">stars</p>
+      <aside class="populaire">
+        <h3>Les plus populaires <i class="fas fa-chart-line"></i></h3>
+        <div class="liste-hebergements">
+          <div class="hebergements">
+            <img src="./images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Auberbe-la-cannabiere" />
+            <div>
+              <div class="titre">Auberge la cannabière</div>
+              <div class="prix">Nuit a partir de 25 €</div>
+              <div class="note">stars</div>
             </div>
           </div>
-          <h3>Afficher plus</h3>
-        </section>
-        <aside class="populaire">
-          <h3>Les plus populaires <i class="fas fa-chart-line"></i></h3>
-          <div class="liste-hebergements">
-            <div class="hebergements">
-              <img
-                src="./images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                alt="Auberbe-la-cannabiere"
-              />
-              <div>
-                <div class="titre">Auberge la cannabière</div>
-                <div class="prix">Nuit a partir de 25 €</div>
-                <div class="note">stars</div>
-              </div>
-            </div>
-            <div class="hebergements">
-              <img
-                src="./images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                alt="Auberbe-la-cannabiere"
-              />
-              <div>
-                <div class="titre">Auberge la cannabière</div>
-                <div class="prix">Nuit a partir de 25 €</div>
-                <div class="note">stars</div>
-              </div>
-            </div>
-            <div class="hebergements">
-              <img
-                src="./images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                alt="Auberbe-la-cannabiere"
-              />
-              <div>
-                <div class="titre">Auberge la cannabière</div>
-                <div class="prix">Nuit a partir de 25 €</div>
-                <div class="note">stars</div>
-              </div>
+          <div class="hebergements">
+            <img src="./images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Auberbe-la-cannabiere" />
+            <div>
+              <div class="titre">Auberge la cannabière</div>
+              <div class="prix">Nuit a partir de 25 €</div>
+              <div class="note">stars</div>
             </div>
           </div>
-        </aside>
-      </section>
+          <div class="hebergements">
+            <img src="./images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Auberbe-la-cannabiere" />
+            <div>
+              <div class="titre">Auberge la cannabière</div>
+              <div class="prix">Nuit a partir de 25 €</div>
+              <div class="note">stars</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
 
-      <section class="activites">
-        <div class="activite">
-          <img
-            src="./images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-            alt=""
-          />
+    <section class="activites">
+      <div class="activite">
+        <img src="./images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="" />
+        <h3>label</h3>
+      </div>
+      <div class="activite-double">
+        <div>
+          <img src="./images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" />
           <h3>label</h3>
         </div>
-        <div class="activite-double">
-          <div>
-            <img
-              src="./images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-              alt=""
-            />
-            <h3>label</h3>
-          </div>
-          <div>
-            <img
-              src="./images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-              alt=""
-            />
-            <h3>label</h3>
-          </div>
-        </div>
-        <div class="activite">
-          <img
-            src="./images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-            alt=""
-          />
+        <div>
+          <img src="./images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="" />
           <h3>label</h3>
         </div>
-        <div class="activite-double">
-          <div>
-            <img
-              src="./images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-              alt=""
-            />
-            <h3>label</h3>
-          </div>
-          <div>
-            <img
-              src="./images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-              alt=""
-            />
-            <h3>label</h3>
-          </div>
+      </div>
+      <div class="activite">
+        <img src="./images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" />
+        <h3>label</h3>
+      </div>
+      <div class="activite-double">
+        <div>
+          <img src="./images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" />
+          <h3>label</h3>
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <div>
-        <h3><strong>A Propos</strong></h3>
-        <p>Fonctionnement du Site</p>
-        <p>Conditions générales de vente</p>
-        <p>Données et confidentialité</p>
+        <div>
+          <img src="./images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="" />
+          <h3>label</h3>
+        </div>
       </div>
+    </section>
+  </main>
 
-      <div>
-        <h3><strong>Nos Hébergements</strong></h3>
-        <p>Charte qualité</p>
-        <p>Soumettre votre Hôtel</p>
-      </div>
+  <footer>
+    <div>
+      <h3><strong>A Propos</strong></h3>
+      <p>Fonctionnement du Site</p>
+      <p>Conditions générales de vente</p>
+      <p>Données et confidentialité</p>
+    </div>
 
-      <div>
-        <h3><strong>Assistance</strong></h3>
-        <p>Centre d'aide</p>
-        <p>Nous Contacter</p>
-      </div>
-    </footer>
-    <!-- set the copyrigth and the link to my website -->
-  </body>
+    <div>
+      <h3><strong>Nos Hébergements</strong></h3>
+      <p>Charte qualité</p>
+      <p>Soumettre votre Hôtel</p>
+    </div>
+
+    <div>
+      <h3><strong>Assistance</strong></h3>
+      <p>Centre d'aide</p>
+      <p>Nous Contacter</p>
+    </div>
+  </footer>
+  <!-- set the copyrigth and the link to my website -->
+</body>
+
 </html>
